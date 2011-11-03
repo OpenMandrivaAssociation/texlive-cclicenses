@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/cclicenses
+# catalog-date 2008-08-17 13:56:26 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-cclicenses
 Version:	20080817
 Release:	1
@@ -44,6 +50,7 @@ write these logos, related to CC licences versions 1.0 and 2.0.
 #- source
 %doc %{_texmfdistdir}/source/latex/cclicenses/cclicenses.dtx
 %doc %{_texmfdistdir}/source/latex/cclicenses/cclicenses.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ write these logos, related to CC licences versions 1.0 and 2.0.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
