@@ -5,9 +5,9 @@ Summary:	Typeset Creative Commons licence logos
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cclicenses
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cclicenses.r15878.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cclicenses.doc.r15878.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cclicenses.source.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cclicenses.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cclicenses.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cclicenses.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
