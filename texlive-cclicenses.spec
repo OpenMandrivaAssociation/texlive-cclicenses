@@ -1,6 +1,6 @@
 Name:		texlive-cclicenses
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Typeset Creative Commons licence logos
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/cclicenses
